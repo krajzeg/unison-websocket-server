@@ -1,0 +1,38 @@
+{
+  "name": "unison-websocket-server",
+  "version": "1.0.0",
+  "description": "Websocket server communications for unison using the 'ws' library.",
+  "main": "dist/lib/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krajzeg/unison-websocket-server"
+  },
+  "keywords": [
+    "unison",
+    "websocket",
+    "communication",
+    "server",
+    "ws"
+  ],
+  "author": "Jakub Wasilewski <wasyl@wasyl.eu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krajzeg/unison-websocket-server/issues"
+  },
+  "homepage": "https://github.com/krajzeg/unison-websocket-server",
+  "devDependencies": {
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-mocha": "^2.1.3",
+    "gulp-sourcemaps": "^1.5.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "lodash": "^3.10.0",
+    "ws": "^0.7.2"
+  }
+}
